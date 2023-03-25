@@ -1,0 +1,241 @@
+  /*= ОБЩИЕ СТИЛИ
+	--------------------------------------------------------*/
+	body {
+		background-image: url(../img/aga.jpg);
+		background-size: cover;
+		font-family: 'Open Sans', sans-serif;
+		margin: 0;
+	}
+
+
+	a {
+		color: white;
+		font-weight: 700;
+	}
+	
+	span {
+		font-weight: 300;
+		color: black;
+	}
+
+	.mlogin {
+		margin: 116px auto 0;
+	}
+
+	.mregister {
+		margin: 80px auto 0;
+	}
+
+	.error {
+		margin: 20px auto 0;
+		border: 1px solid #777;
+		padding: 3px;
+		color: #fff;
+		text-align: center;
+		width: 650px;
+		background: #42403e;
+	}
+
+	.regtext {
+		font-size: 13px;
+		margin-top: 26px;
+		color: #777;
+	}
+	
+	/*= КОНТЕЙНЕРЫ
+	--------------------------------------------------------*/
+	.container {
+		padding: 25px 16px 25px 10px;
+		font-weight: 400;
+		overflow: hidden;
+		width: 350px;
+		height: auto;
+		background: #fff;
+		-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.13);
+		-moz-box-shadow: 0 1px 3px rgba(0,0,0,.13);
+		box-shadow: 0 1px 3px rgba(0,0,0,.13);
+	}
+	
+	#welcome {
+		width: 500px;
+		padding: 30px;
+		background: #fff;
+		margin: 160px auto 0;
+		-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.13);
+		-moz-box-shadow: 0 1px 3px rgba(0,0,0,.13);
+		box-shadow: 0 1px 3px rgba(0,0,0,.13);
+	}
+	
+	.container h1 {
+		text-align: center;
+		background: linear-gradient(-45deg, #FEE864, #F5965E);
+  color: #f4f4f4;
+  text-shadow: -1px -1px white, 1px 1px gray, 2px 2px #7a7a7a, 3px 3px #757575, 4px 4px #707070, 5px 5px #6b6b6b, 6px 6px #666666, 7px 7px #616161, 8px 8px #5c5c5c, 9px 9px #575757, 10px 10px #525252, 11px 11px #4d4d4d, 18px 18px 30px rgba(0, 0, 0, .4), 18px 18px 10px rgba(0, 0, 0, .4);
+	  }
+	  
+	  
+
+	  .logout {
+		padding-left: 65px;
+		text-align: center;
+		color: rgb(20, 19, 19);
+		letter-spacing: 2px;
+		font-weight: 700;
+		text-transform: uppercase;
+		animation: blur .75s ease-out infinite;
+		text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+	  }
+	  
+	  @keyframes blur {
+		from {
+		  text-shadow:0px 0px 10px #fff,
+			0px 0px 10px #fff, 
+			0px 0px 25px #fff,
+			0px 0px 25px #fff,
+			0px 0px 25px #fff,
+			0px 0px 25px #fff,
+			0px 0px 25px #fff,
+			0px 0px 25px #fff,
+			0px 0px 50px #fff,
+			0px 0px 50px #fff,
+			0px 0px 50px #7B96B8,
+			0px 0px 150px #7B96B8,
+			0px 10px 100px #7B96B8,
+			0px 10px 100px #7B96B8,
+			0px 10px 100px #7B96B8,
+			0px 10px 100px #7B96B8,
+			0px -10px 100px #7B96B8,
+			0px -10px 100px #7B96B8;
+		}
+	  }
+
+	.container label {
+		color: #777;
+		font-size: 14px;
+	}
+
+	#login {
+		width: 320px;
+		margin: auto;
+		padding-bottom: 15px;
+	}
+
+	.container form .input,.container input[type=text],.container input[type=number],.container input[type=password],.container input[type=e] {
+		background: #fbfbfb;
+		font-size: 24px;
+		line-height: 1;
+		width: 100%;
+		padding: 3px;
+		margin: 0 6px 5px 0;
+		outline: none;
+		border: 1px solid #d9d9d9;
+	}
+	
+	#p38 {
+		font-size: 24px;
+	}
+	.container form .input:focus {
+		border: 1px solid #f58220;
+		-webkit-box-shadow: 0 0 3px 0 rgba(245,130,32,0.75);
+		-moz-box-shadow: 0 0 3px 0 rgba(245,130,32,0.75);
+		box-shadow: 0 0 3px 0 rgba(245,130,32,0.75);
+	}
+	
+	/*= КНОПКИ
+	--------------------------------------------------------*/
+	
+	.button {
+		display: inline-block;
+	box-sizing: border-box;
+	padding: 1px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: 1px solid #F18230;
+	border-radius: 25px;
+	height: 46px;
+	line-height: 0;
+	font-size: 14px;
+	font-weight: 500;
+	text-decoration: none;
+	color: #fff;
+	background-color: #fff;
+	position: relative;
+	overflow: hidden;
+	vertical-align: top;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;
+	  } 
+
+	  .button span {
+		display: block;
+		box-sizing: border-box;
+		padding: 0 25px;   
+		height: 42px;
+		line-height: 38px;   
+		border: 1px solid #F18230;
+		border-radius: 25px;   
+		font-size: 14px;
+		color: #FFFFFF;
+		background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #F18230;
+		text-align: center;
+		font-weight: 600;
+	}
+	.button:focus-visible {
+		box-shadow: 0 0 0 3px lightskyblue;
+	}
+	.button:hover span {
+		background-color: #fba768
+	}
+	.button:active span {
+		background-color: #c17237 !important;
+	}
+	.button:disabled {
+		opacity: 0.65;
+		pointer-events: none;
+	}
+	
+	.input__button {
+		text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #de8819 0%, #ecf40d 51%, #c7eb0f 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: .5s;
+  cursor: pointer;
+	}
+	
+	#buttonmain {
+		float: none;
+		margin: 0 auto;
+		display: block;		
+		text-align: center;
+		min-width: 76px;
+		text-decoration: none;
+		background-size: 300px;
+	}
+	#buttonmain1 {
+		padding: 3px 0 3px 0;
+		float: none;
+		margin: 0 auto;
+		min-width: 76px;
+		text-decoration: none;
+		background-size: 300px;
+	}
+
+	/*= ПОДВАЛ
+	--------------------------------------------------------*/
+	footer {
+		color: rgb(248, 245, 245);
+		font-size: 12px;
+		text-align: center;
+		margin-top: 20px;
+	}
